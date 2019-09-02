@@ -1,5 +1,4 @@
-# SSW-567
-Course: SW Testing, Qual. Assur. and Maint
+# SSW-567: SW Testing, Qual. Assur. and Maint
 
 What challenges did you encounter with this assignment, if any? 
 
