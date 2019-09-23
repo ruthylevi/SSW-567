@@ -1,0 +1,170 @@
+Running unit tests
+FF..EFFFFFFFFFFFF
+======================================================================
+ERROR: testInvalidInputC (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 60, in testInvalidInputC
+    self.assertEqual(classifyTriangle("200", "0", "0"),'InvalidInput')
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\Triangle.py", line 31, in classifyTriangle
+    if a > 200 or b > 200 or c > 200:
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+======================================================================
+FAIL: testEquilateralTriangleA (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 33, in testEquilateralTriangleA
+    self.assertEqual(classifyTriangle(1,1,1),'Equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+
+
+======================================================================
+FAIL: testEquilateralTriangleB (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 36, in testEquilateralTriangleB
+    self.assertEqual(classifyTriangle(10,10,10),'Equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+
+
+======================================================================
+FAIL: testIsocelesTriangleA (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 39, in testIsocelesTriangleA
+    self.assertEqual(classifyTriangle(3, 3, 2),'Isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+
+
+======================================================================
+FAIL: testIsocelesTriangleB (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 42, in testIsocelesTriangleB
+    self.assertEqual(classifyTriangle(4, 6, 6),'Isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+
+
+======================================================================
+FAIL: testIsocelesTriangleC (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 45, in testIsocelesTriangleC
+    self.assertEqual(classifyTriangle(6, 4, 6),'Isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+
+
+======================================================================
+FAIL: testIsocelesTriangleD (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 48, in testIsocelesTriangleD
+    self.assertEqual(classifyTriangle(6, 6, 4),'Isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+
+
+======================================================================
+FAIL: testNotATriangleA (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 63, in testNotATriangleA
+    self.assertEqual(classifyTriangle(5, 1, 1),'NotATriangle')
+AssertionError: 'InvalidInput' != 'NotATriangle'
+- InvalidInput
++ NotATriangle
+
+
+======================================================================
+FAIL: testNotATriangleB (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 66, in testNotATriangleB
+    self.assertEqual(classifyTriangle(1, 5, 1),'NotATriangle')
+AssertionError: 'InvalidInput' != 'NotATriangle'
+- InvalidInput
++ NotATriangle
+
+
+======================================================================
+FAIL: testNotATriangleC (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 69, in testNotATriangleC
+    self.assertEqual(classifyTriangle(1, 1, 5),'NotATriangle')
+AssertionError: 'InvalidInput' != 'NotATriangle'
+- InvalidInput
++ NotATriangle
+
+
+======================================================================
+FAIL: testRightTriangleA (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 21, in testRightTriangleA
+    self.assertEqual(classifyTriangle(3,4,5),'Right')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+
+
+======================================================================
+FAIL: testRightTriangleB (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 24, in testRightTriangleB
+    self.assertEqual(classifyTriangle(5,3,4),'Right')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+
+
+======================================================================
+FAIL: testRightTriangleC (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 27, in testRightTriangleC
+    self.assertEqual(classifyTriangle(13, 12, 5), 'Right')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+
+
+======================================================================
+FAIL: testRightTriangleD (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 30, in testRightTriangleD
+    self.assertEqual(classifyTriangle(8, 6, 10), 'Right')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+
+
+======================================================================
+FAIL: testScaleneTriangleA (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Zildj\OneDrive - stevens.edu\!School\7th Semester\SW Testing, Qual. Assur. & Maint\Triangle567\TestTriangle.py", line 51, in testScaleneTriangleA
+    self.assertEqual(classifyTriangle(10, 15, 12),'Scalene')
+AssertionError: 'InvalidInput' != 'Scalene'
+- InvalidInput
++ Scalene
+
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.011s
+
+FAILED (failures=14, errors=1)
